@@ -1,0 +1,30 @@
+body {
+            font-family: "monospace", "Times New Roman", Times, serif;
+
+        }
+
+ .monospace {
+     font-family: "Lucida Console", Courier, monospace;
+    }
+
+img.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  
+  top: 0px;
+  z-index: -1;
+  filter: brightness(20%);
+}
+
+img.circle {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+  filter: brightness(100%);
+  filter:contrast(500%);
+  filter: drop-shadow(6px 8px 8px rgb(37, 35, 35));
+}
